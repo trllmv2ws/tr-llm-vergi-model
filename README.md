@@ -82,13 +82,11 @@ Aşağıda bir doğru örnek ve bir sınırlı örnek yer almaktadır:
 - Gradio / Hugging Face Spaces üzerinden demo arayüzü hazırlanacaktır.
 - Modelin sayısal görevlerde doğruluğu hesap motoru / API ile desteklenecektir.
   
-
 ## Notlar
 
 - Bu repo tanıtım amacıyla oluşturulmuştur.
 - Model ağırlıkları, tokenizer ve tam veri seti paylaşılmamaktadır.
 - Eğitim süreçleri, metodoloji ve çıktı örnekleri referans amaçlı sunulmuştur.
-
 
 ## Dosya ve Klasör Yapısı
 
