@@ -53,6 +53,7 @@ Genelleme kabiliyeti, ilerleyen versiyonlarda:
 - Diyalog ve senaryo temelli verilerle desteklenerek
 - Bağlamlı metin parçalama (sliding window) teknikleriyle geliştirilecektir.
 
+
 ## Modelden Örnek Yanıtlar – Güçlü ve Geliştirmeye Açık Yönler
 
 Model, bağlamı doğru kurma, mevzuat dilini öğrenme ve teknik sorulara sözel cevap verme konusunda oldukça başarılıdır. Ancak sayısal hesaplamalar gibi görevlerde, hesap motoru bulunmadığı için tutarsızlıklar gözlemlenmiştir.
@@ -75,11 +76,12 @@ Aşağıda bir doğru örnek ve bir sınırlı örnek yer almaktadır:
 
 > Model, KDV iadesi mantığını örüntüsel olarak doğru kurmuştur. Ancak rakamlar sabit örüntüden alınmış ve gerçek işlem yapılmamıştır. Bu sınırlama, bilinçli olarak sayısal hesaplama katmanı (calculator / API) dışarıda bırakıldığı için ortaya çıkmıştır.
 
+
 ## Planlanan Geliştirmeler
 
 - Gradio / Hugging Face Spaces üzerinden demo arayüzü hazırlanacaktır.
 - Modelin sayısal görevlerde doğruluğu hesap motoru / API ile desteklenecektir.
-
+  
 
 ## Notlar
 
