@@ -1,11 +1,3 @@
-## Proje Özeti
-
-- Türkçe GPT-2 tabanlı LLM pretraining
-- Veri kaynakları: Wikipedia, sözlük
-- Eğitim: 120 part, 512 token block size, linear lr 5e-5
-- Nihai model: `part_114`, %80 doğruluk
-- Gelişim planı: hesap motoru, RAG, demo
-
 # Eğitim Süreci ve Karar Değişimleri
 
 Model eğitimi ilk olarak yalnızca Wikipedia verisi ile başlatıldı. 12 partlık ön eğitim sonunda başarılı çıktılar elde edildi. Süreç, aşağıdaki aşamalardan geçti:
