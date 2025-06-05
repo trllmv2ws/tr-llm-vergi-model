@@ -75,6 +75,11 @@ Aşağıda bir doğru örnek ve bir sınırlı örnek yer almaktadır:
 
 > Model, KDV iadesi mantığını örüntüsel olarak doğru kurmuştur. Ancak rakamlar sabit örüntüden alınmış ve gerçek işlem yapılmamıştır. Bu sınırlama, bilinçli olarak sayısal hesaplama katmanı (calculator / API) dışarıda bırakıldığı için ortaya çıkmıştır.
 
+## Planlanan Geliştirmeler
+
+- Gradio / Hugging Face Spaces üzerinden demo arayüzü hazırlanacaktır.
+- Modelin sayısal görevlerde doğruluğu hesap motoru / API ile desteklenecektir.
+
 
 ## Notlar
 
