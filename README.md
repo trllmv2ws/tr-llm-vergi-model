@@ -118,6 +118,11 @@ Bu proje, [Creative Commons Attribution-NonCommercial 4.0 International License]
 Bu proje, yalnızca teknik ve araştırma amaçlı geliştirilmiştir. Burada sunulan yanıtlar hukuki veya mali danışmanlık olarak değerlendirilmemelidir. Doğruluğu garanti edilmez. Kullanıcılar, resmi mercilere başvurarak nihai karar almalıdır.
 Detaylı bilgi için: [Sorumluluk Reddi](DISCLAIMER.md)
 
+## Responsible AI
+
+- Bu model yalnızca kamuya açık veriler (Wikipedia, sözlük) ile eğitilmiştir.
+- Kullanıcı verisi toplanmaz, saklanmaz, analiz edilmez.
+- Model yalnızca karar destek amaçlıdır; çıktılar hukuki/mali bağlayıcılık taşımaz.
 
 ## Eğitim Komutları
 
