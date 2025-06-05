@@ -16,6 +16,7 @@ Bu proje, Türkçe dilinde vergi, mali mevzuat ve sayısal içerikler üzerine u
   - Chain (zincirleme) fine-tune sistemi
   - Schedule tabanlı part bazlı otomasyon
   - Sliding window ve bağlam koruma stratejisi
+  - Maksimum çıktı uzunluğu: Model 512 token blok boyutuyla eğitildiği için yaklaşık 512 token'a kadar çıktı üretebilmektedir.
 - Başarı Oranı: QA setinde yaklaşık %80 doğruluk
 - Sistem: Pop!_OS 22.04, 24GB RAM, GTX 1050 GPU
 
