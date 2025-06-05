@@ -53,27 +53,27 @@ Genelleme kabiliyeti, ilerleyen versiyonlarda:
 - Diyalog ve senaryo temelli verilerle desteklenerek
 - Bağlamlı metin parçalama (sliding window) teknikleriyle geliştirilecektir.
 
-## Modelden Örnek Yanıtlar – Sayısal Sınırlama Örneği
+## Modelden Örnek Yanıtlar – Güçlü ve Geliştirmeye Açık Yönler
 
-Model, bağlamı ve dil örüntüsünü başarılı şekilde öğrenmiş; ancak sayısal hesaplamalarda tutarsızlıklar gözlemlenmiştir. Bu, küçük veri stratejisinin ve hesaplama modülü olmadan eğitimin doğal sonucudur.
+Model, bağlamı doğru kurma, mevzuat dilini öğrenme ve teknik sorulara sözel cevap verme konusunda oldukça başarılıdır. Ancak sayısal hesaplamalar gibi görevlerde, hesap motoru bulunmadığı için tutarsızlıklar gözlemlenmiştir.
 
-Aşağıda iki örnek yer almaktadır:
+Aşağıda bir doğru örnek ve bir sınırlı örnek yer almaktadır:
 
 ---
 
-### Örnek 1 – İhracat İşleminde KDV İadesi
+### Örnek 1 – Tasfiye Süreci (Doğru ve bağlama uygun yanıt)
+
+![tasfiye](images/tasfiye_beyan.png)
+
+> Bu örnekte model, kurumlar vergisinde tasfiye halindeki beyan türlerini doğru biçimde ayırt edebilmiştir. Sözel teknik doğruluk hedefi başarılıdır.
+
+---
+
+### Örnek 2 – KDV İadesi (Rakam hatası içeren, yapı olarak doğru örnek)
 
 ![kdv_ihracat](images/kdv_ihracat.png)
 
-> Model, ihracat teslimleri ve yüklü KDV üzerinden mantıken doğru bir yapı kurmuştur. Ancak 150.834 TL gibi sayılar tekrar edilmiş, gerçek matematiksel işlem yapılmamıştır.
-
----
-
-### Örnek 2 – Tevkifatlı Hizmette KDV İadesi
-
-![kdv_tevkifat](images/kdv_tevkifat.png)
-
-> Bu örnekte model daha karmaşık bir senaryoda çalışmaktadır. Cümle yapısı doğru olsa da, iade tutarı hatalı hesaplanmıştır. Bu durum, ileride hesap katmanı (calculator/API) ile geliştirilecektir.
+> Model, KDV iadesi mantığını örüntüsel olarak doğru kurmuştur. Ancak rakamlar sabit örüntüden alınmış ve gerçek işlem yapılmamıştır. Bu sınırlama, bilinçli olarak sayısal hesaplama katmanı (calculator / API) dışarıda bırakıldığı için ortaya çıkmıştır.
 
 
 ## Notlar
