@@ -109,9 +109,9 @@ Model, hedeflendiği şekilde, KDV iadesi mantığını örüntüsel olarak doğ
 
 Bu proje, [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/) kapsamında paylaşılmıştır.
 
-- **Ticari kullanım yasaktır.**
-- **Akademik ve kişisel kullanım serbesttir.**
-- **Kaynak gösterimi zorunludur.**
+- Ticari kullanım yasaktır.
+- Akademik ve kişisel kullanım serbesttir.
+- Kaynak gösterimi zorunludur.
 
 ## Sorumluluk Reddi
 
