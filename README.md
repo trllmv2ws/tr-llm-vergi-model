@@ -46,6 +46,12 @@ Model çıktıları, hem klasik inference betikleriyle hem de Gradio tabanlı ye
 - `checkpoints/` – Model checkpoint dizinleri (private)
 - `logs_chain/` – Eğitim logları
 
+## Ek Belgeler
+
+- [Eğitim Süreci ve Karar Değişimleri](docs/training_summary.md)
+- [Öğrenilenler ve Katma Değer](docs/lessons_learned.md)
+- [Geliştirme Planı](docs/development_plan.md)
+
 
 ## Eğitim Komutları
 
