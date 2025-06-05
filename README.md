@@ -66,7 +66,7 @@ Aşağıda bir doğru örnek ve bir sınırlı örnek yer almaktadır:
 
 ![tasfiye](images/KKEG_1.png)
 
-> Bu örnekte model, lüks araç amortismanı ile ilgili **KKEG (Kanunen Kabul Edilmeyen Gider)** kuralını doğru biçimde açıklamıştır. Model, **hem sayısal veri**, hem de **vergi yorumu** açısından tatmin edici bir çıktı üretmiştir.
+> Bu örnekte model, lüks araç amortismanı ile ilgili KKEG (Kanunen Kabul Edilmeyen Gider) kuralını doğru biçimde açıklamıştır. Model, hem sayısal veri, hem de vergi yorumu açısından tatmin edici bir çıktı üretmiştir.
 
 ---
 
@@ -74,7 +74,7 @@ Aşağıda bir doğru örnek ve bir sınırlı örnek yer almaktadır:
 
 ![kdv_tevkifat](images/kdv_tevkifat.png)
 
-Bu hata, küçük veriyle eğitilen modellerde görülen **sayısal örüntü ezberleme eğilimini** yansıtmaktadır. Sayısal hesaplama katmanı (calculator / API) dışarıda bırakıldığı için ortaya çıkmıştır.
+Bu hata, küçük veriyle eğitilen modellerde görülen sayısal örüntü ezberleme eğilimini yansıtmaktadır. Sayısal hesaplama katmanı (calculator / API) dışarıda bırakıldığı için ortaya çıkmıştır.
 Model, hedeflendiği şekilde, KDV iadesi mantığını örüntüsel olarak doğru kurmuştur. 
 
 ## Planlanan Geliştirmeler
