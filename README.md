@@ -30,6 +30,30 @@ Modelin tasarımı, sadece doğal dil üretimi değil, aynı zamanda analitik ve
 
 Model çıktıları, hem klasik inference betikleriyle hem de Gradio tabanlı yerel bir arayüzle test edilmiştir. Girdi-çıktı analizleri, prompt değerlendirmeleri ve kullanıcı etkileşim senaryoları bu testler sırasında gerçekleştirilmiştir. Özellikle sayısal hesaplama, senaryo takibi ve bağlamı koruma gibi alanlarda Gradio arayüzü hızlı geri bildirim sağlamıştır.
 
+### Küçük Veri Stratejisi ve Sayısal Sınırlamalar
+
+Model, küçük ama odaklı bir veri kümesi ile eğitildi:
+- 2.000 satır vergi ve mevzuat QA
+- 36.000 satır sayısal hesaplama senaryosu
+- 500 satır diyalog örneği
+
+Amaç, sınırlı kaynakla **bağlamı doğru kuran**, doğal ama kontrollü yanıtlar veren bir temel model üretmekti. Sayı içeren örneklerde bazı hesap hataları görülebilir — bu bilinçli bir tercihtir.
+
+**Neden bu yol seçildi?**
+1. *Gözlemleme*: Modelin neyi öğrendiğini ve neyi yanlış yaptığı net biçimde izlemek
+2. *Hedefli veri artırımı*: Her gözlemlenen hataya karşılık gelen veri ihtiyacını planlayarak ilerlemek
+3. *Rakamları hesaplama katmanına taşımak*: Calculator / API / RAG entegrasyonu ile sayısal doğruluğu dışarıda yönetmek
+
+### Genelleme Yeteneği ve Tasarım Tercihi
+
+Model, küçük ama odaklı veri setiyle eğitildiği için, eğitilen örüntüler dışında kalan bazı soru tiplerinde genelleme yeteneği sınırlı olabilir. Bu, bilinçli bir tercih olup, modelin öğrenme sınırlarını gözlemleyerek hangi veri türünün neyi iyileştirdiğini test etmeye olanak sağlamaktadır.
+
+Genelleme kabiliyeti, ilerleyen versiyonlarda:
+- Örnek çeşitliliği artırılarak
+- Diyalog ve senaryo temelli verilerle desteklenerek
+- Bağlamlı metin parçalama (sliding window) teknikleriyle geliştirilecektir.
+
+
 ## Notlar
 
 - Bu repo tanıtım amacıyla oluşturulmuştur.
