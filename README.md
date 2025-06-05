@@ -116,6 +116,8 @@ Bu proje, [Creative Commons Attribution-NonCommercial 4.0 International License]
 ## Sorumluluk Reddi
 
 Bu proje, yalnızca teknik ve araştırma amaçlı geliştirilmiştir. Burada sunulan yanıtlar hukuki veya mali danışmanlık olarak değerlendirilmemelidir. Doğruluğu garanti edilmez. Kullanıcılar, resmi mercilere başvurarak nihai karar almalıdır.
+Detaylı bilgi için: [Sorumluluk Reddi](DISCLAIMER.md)
+
 
 ## Eğitim Komutları
 
