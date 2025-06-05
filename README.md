@@ -11,7 +11,7 @@ Bu proje, Türkçe dilinde vergi, mali mevzuat ve sayısal içerikler üzerine u
 - Veri:
   - 2.000+ vergi QA çifti  
   - 36.000 sayısal/senaryo tabanlı örnek  
-  - Diyalog ve kavram odaklı içerikler
+  - 500 satırlık özel hazırlanmış diyalog seti
 - Eğitim Özellikleri:
   - Chain (zincirleme) fine-tune sistemi
   - Schedule tabanlı part bazlı otomasyon
