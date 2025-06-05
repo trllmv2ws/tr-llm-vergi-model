@@ -1,4 +1,4 @@
-Öğrenilenler ve Katma Değer
+##Öğrenilenler ve Katma Değer
 LLM mimarisinin veri hassasiyeti, bağlam aktarımı ve örüntü disiplini üzerine kapsamlı bir deneyim elde edildi.
 
 Eğitim verisi hazırlama, token sayımı, sliding window ve etiketleme gibi süreçlerde özelleştirilmiş scriptler geliştirildi.
