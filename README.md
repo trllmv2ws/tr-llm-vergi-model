@@ -53,7 +53,7 @@ Genelleme kabiliyeti, ilerleyen versiyonlarda:
 - Diyalog ve senaryo temelli verilerle desteklenerek
 - Bağlamlı metin parçalama (sliding window) teknikleriyle geliştirilecektir.
 
-## 🎯 Modelden Örnek Yanıtlar – Sayısal Sınırlama Örneği
+## Modelden Örnek Yanıtlar – Sayısal Sınırlama Örneği
 
 Model, bağlamı ve dil örüntüsünü başarılı şekilde öğrenmiş; ancak sayısal hesaplamalarda tutarsızlıklar gözlemlenmiştir. Bu, küçük veri stratejisinin ve hesaplama modülü olmadan eğitimin doğal sonucudur.
 
@@ -61,7 +61,7 @@ Aşağıda iki örnek yer almaktadır:
 
 ---
 
-### 🔍 Örnek 1 – İhracat İşleminde KDV İadesi
+### Örnek 1 – İhracat İşleminde KDV İadesi
 
 ![kdv_ihracat](images/kdv_ihracat.png)
 
@@ -69,7 +69,7 @@ Aşağıda iki örnek yer almaktadır:
 
 ---
 
-### 🔍 Örnek 2 – Tevkifatlı Hizmette KDV İadesi
+### Örnek 2 – Tevkifatlı Hizmette KDV İadesi
 
 ![kdv_tevkifat](images/kdv_tevkifat.png)
 
