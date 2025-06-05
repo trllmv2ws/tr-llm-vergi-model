@@ -72,9 +72,9 @@ Aşağıda bir doğru örnek ve bir sınırlı örnek yer almaktadır:
 
 ### Örnek 2 – KDV İadesi (Rakam hatası içeren, yapı olarak doğru örnek)
 
-![kdv_ihracat](images/kdv_ihracat.png)
+![kdv_tevkifat](images/kdv_tevkifat.png)
 
-> Model, KDV iadesi mantığını örüntüsel olarak doğru kurmuştur. Ancak rakamlar sabit örüntüden alınmış ve gerçek işlem yapılmamıştır. Bu sınırlama, bilinçli olarak sayısal hesaplama katmanı (calculator / API) dışarıda bırakıldığı için ortaya çıkmıştır.
+Bu hata, küçük veriyle eğitilen modellerde görülen **sayısal örüntü ezberleme eğilimini** yansıtmaktadır. Model, KDV iadesi mantığını örüntüsel olarak doğru kurmuştur. Bu sınırlama, bilinçli olarak sayısal hesaplama katmanı (calculator / API) dışarıda bırakıldığı için ortaya çıkmıştır.
 
 
 ## Planlanan Geliştirmeler
