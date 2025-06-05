@@ -100,6 +100,15 @@ Aşağıda bir doğru örnek ve bir sınırlı örnek yer almaktadır:
 - [Geliştirme Planı](docs/development_plan.md)
 
 
+## Lisans
+
+Bu proje, [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/) kapsamında paylaşılmıştır.
+
+- **Ticari kullanım yasaktır.**
+- **Akademik ve kişisel kullanım serbesttir.**
+- **Kaynak gösterimi zorunludur.**
+
+
 ## Eğitim Komutları
 
 ```bash
